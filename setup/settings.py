@@ -31,6 +31,8 @@ ALLOWED_HOSTS = [
     "www.prestigewealthco.com",
     "prestigewealthco.com"
     "localhost",
+    "backend.prestigewealthco.com",
+    "prestigewealthco.com",
 ]
 
 
