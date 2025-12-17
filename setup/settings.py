@@ -27,7 +27,12 @@ SECRET_KEY = "django-insecure-e*tptqu9b=a7i6(%r@dzui6y&$2!u3l3-d$&f)+7^clbw$ic%c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    "www.prestigewealthco.com",
+    "prestigewealthco.com"
+    "localhost",
+]
+
 
 
 # Application definition
@@ -171,6 +176,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://16.170.224.115",
+    "https://prestigewealthco.com",
+    "http://www.prestigewealthco.com"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
